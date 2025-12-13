@@ -32,7 +32,7 @@ public class Main
 
         System.out.print("Enter number of books : ");
         int n = in.nextInt();
-        in.nextLine();   // 🔑 buffer clear
+        in.nextLine();   
 
         Books[] b = new Books[n];
 
@@ -51,7 +51,7 @@ public class Main
 
             System.out.print("Number of pages : ");
             int num_pages = in.nextInt();
-            in.nextLine(); // 🔑 buffer clear
+            in.nextLine(); 
 
             b[i] = new Books(name, author, price, num_pages);
         }
